@@ -1,0 +1,62 @@
+[
+	{
+		"id": 1,
+		"title": " Increase Brain Performance Institute",
+		"title2": "Project Description",
+		"titleLarge": "Transforming operational efficiency with start edge Solutions for businesses",
+		"img": "/images/prot/alnada.webp",
+		"img2": "/images/project/h2-project-1.webp",
+		"img3": "/images/project/h7-project-1.webp",
+		"img4": "/images/project/h8-project-1.webp",
+		"img5": "/images/project/h9-project-1.webp",
+		"img6": "/images/project/h10-project-img-1.webp",
+		"imgLarge": "/images/prot/alnada.webp",
+		"detailsImg": "/img/portfolio/portfolio-details-1.jpg",
+		"desc": "They are was greater open above shelter lets itself under appear sixth open gathering made upon can't own above midst gathering gathered he one us saying can't divide.",
+		"shortDesc": "Project was about precision and information",
+		"desc1": "The goal is there are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+		"desc2": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.",
+
+		"category": "Branding",
+		"featured": true,
+		"featuredDesc": " Project was about precision and information. That’s all. Our design tem helps clients achieve their marketing Trager and branding that appeals to a website",
+		"featuredImg": "/img/project/project-2.png",
+		"employee": {
+			"name": "Jeremy Doughlas",
+			"desig": "UI & UX designer",
+			"img": "/img/project/project-1.png"
+		},
+		"tags": ["Al Nahada"],
+		"dataFilter": "branding",
+		"statusItem": [
+			{
+				"title": "Category",
+				"desc": "Web Design"
+			},
+			{
+				"title": "Client",
+				"desc": "Artboard Studio"
+			},
+			{
+				"title": "Start Date",
+				"desc": "August 20, 2023"
+			},
+			{
+				"title": "Designer",
+				"desc": "ThemeJunction"
+			}
+		],
+		"descItems": [
+			{
+				"title": "The story",
+				"desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
+			},
+			{
+				"title": "OUR APPROACH",
+				"desc": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text."
+			}
+		],
+		"slug": "increase-brain-performance-institute"
+
+	}
+]

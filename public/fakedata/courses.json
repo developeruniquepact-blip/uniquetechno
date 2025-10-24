@@ -1,0 +1,50 @@
+[
+    {
+		"id": 1,
+		"title": "Business & Soft Skills",
+		"img": "/images/courses/english.webp",
+		"imgSm": "/img/icons/services-10-icons-1.svg",
+		"bgImg": "/images/courses/english.webp",
+		"bgImg2": "/images/courses/english.webp",
+		"iconName": "tji-optimization",
+		"svg": "/images/icons/service-1.svg",
+		"desc": "Empowering professionals with the business acumen to lead.",
+		"path" : "/business-soft-skills"
+	},
+	   {
+		"id": 2,
+		"title": "IT & Tech",
+		"img": "/images/courses/english.webp",
+		"imgSm": "/img/icons/services-10-icons-1.svg",
+		"bgImg": "/images/courses/ittech.jpg",
+		"bgImg2": "/images/courses/english.webp",
+		"iconName": "tji-optimization",
+		"svg": "/images/icons/service-1.svg",
+		"desc": "Empowering innovation through cutting-edge IT solutions.",
+		"path" : "/it-tech"
+	},
+	   {
+		"id": 3,
+		"title": "Kids & Teens Programs",
+		"img": "/images/courses/english.webp",
+		"imgSm": "/img/icons/services-10-icons-1.svg",
+		"bgImg": "/images/courses/kids.jpg",
+		"bgImg2": "/images/courses/english.webp",
+		"iconName": "tji-optimization",
+		"svg": "/images/icons/service-1.svg",
+		"desc": "Inspire, explore, and grow — where kids and teens shine bright!",
+		"path" : "/kids-teens-programs"
+	},
+	   {
+		"id": 4,
+		"title": "Language Training",
+		"img": "/images/courses/english.webp",
+		"imgSm": "/img/icons/services-10-icons-1.svg",
+		"bgImg": "/images/courses/lan.jpg",
+		"bgImg2": "/images/courses/english.webp",
+		"iconName": "tji-optimization",
+		"svg": "/images/icons/service-1.svg",
+		"desc": "Unlock global opportunities with expert language training.",
+		"path" : "/language-training"
+	}
+]

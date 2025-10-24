@@ -1,0 +1,188 @@
+[
+	{
+		"id": 1,
+		"name": "Home",
+		"path": "/"
+	},
+	{
+		"id": 2,
+		"name": "About Us",
+		"path": "/about",
+		"submenu": [
+			{
+				"id": 1,
+				"name": "Founders",
+				"path": "/founders"
+			},
+			{
+				"id": 2,
+				"name": "Regional Office UAE",
+				"path": "/regional-office-uae"
+			},
+			{
+				"id": 3,
+				"name": "Placement Support",
+				"path": "/placement-support"
+			},
+			{
+				"id": 4,
+				"name": "Awards",
+				"path": "/awards"
+			}
+		]
+	},
+{
+		"id": 3,
+		"name": "Our Courses",
+		"path": "/our-courses",
+		"submenu": [
+			{
+				"id": 1,
+				"name": "Business & Soft Skills",
+				"icon": "tji-optimization",
+				"path": "/business-soft-skills",
+				"submenu" :[
+					{
+						"id": 1,
+						"name": "Accounting with Tally & QuickBooks",
+						"path": "/business-soft-skills/accounting-with-tally-quickbooks"
+					}
+					
+				]
+			},
+{
+				"id": 2,
+				"name": "IT & Tech",
+				"icon": "tji-strategic",
+				"path": "/it-tech",
+					"submenu" :[
+					{
+						"id": 1,
+						"name": "Data Analyst",
+						"path": "/it-tech/data-analyst"
+					},
+					{
+						"id": 1,
+						"name": "Digital Marketing",
+						"path": "/it-tech/digital-marketing"
+					},
+					{
+						"id": 1,
+						"name": "Full Stack Development",
+						"path": "/it-tech/full-stack-development"
+					},
+					{
+						"id": 1,
+						"name": "3D Animation & VFX",
+						"path": "/it-tech/3d-animation-vfx"
+					},
+{
+						"id": 1,
+						"name": "Core Java",
+						"path": "/it-tech/core-java"
+					},
+					{
+						"id": 1,
+						"name": "React Native",
+						"path": "/it-tech/react-native"
+					},
+					{
+						"id": 1,
+						"name": "React JS",
+						"path": "/it-tech/react-js"
+					},
+					{
+						"id": 1,
+						"name": "Video Editing",
+						"path": "/it-tech/video-editing"
+					},
+					{
+						"id": 1,
+						"name": "Cyber Security",
+						"path": "/it-tech/cyber-security"
+					},
+					{
+						"id": 1,
+						"name": "Web Design",
+						"path": "/it-tech/web-design"
+					},
+
+{
+						"id": 1,
+						"name": "Graphic Design",
+						"path": "/it-tech/graphic-design"
+					},
+					{
+						"id": 1,
+						"name": "Full-Stack Python",
+						"path": "/it-tech/full-stack-python"
+					},
+					{
+						"id": 1,
+						"name": "Full-Stack Java",
+						"path": "/it-tech/full-stack-java"
+					},
+					{
+						"id": 1,
+						"name": "Salesforce Development",
+						"path": "/it-tech/salesforce-development"
+					},
+					{
+						"id": 1,
+						"name": "Penetration Testing Cyber Security",
+						"path": "/it-tech/penetration-testing-cyber-security"
+					},
+{
+						"id": 1,
+						"name": "Machine Learning",
+						"path": "/it-tech/machine-learning"
+					},
+					{
+						"id": 1,
+						"name": "Data Science",
+						"path": "/it-tech/data-science"
+					}
+					
+				]
+			},
+			{
+				"id": 3,
+				"name": "Kids & Teens Programs",
+				"icon": "tji-leadership",
+				"path": "/kids-teens-programs"
+			},
+			{
+				"id": 4,
+				"name": "Language Training",
+				"icon": "tji-process",
+				"path": "/language-training",
+				"submenu" :[
+					{
+						"id": 1,
+						"name": "English Spoken",
+						"path": "/language-training/english-spoken"
+					}
+]
+			}
+		]
+	},
+
+	{
+		"id": 4,
+		"name": "Our Centers",
+		"path": "/our-centers"
+	},
+
+	{
+		"id": 5,
+		"name": "Gallery",
+		"path": "/gallery"
+	},
+
+	
+	{
+		"id": 6,
+		"name": "Contact",
+		"path": "/contact"
+	}
+]
