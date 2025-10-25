@@ -8,11 +8,7 @@ import Footer from "@/components/layout/footer/Footer5";
 import Header from "@/components/layout/header/Header";
 import TjMagicCursor from "@/components/shared/others/TjMagicCursor";
 import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";
-export const metadata = {
-  title: 'Privacy Policy | Technoglobe IT Training Institute in Sharjah, UAE',
-  description: 'Read Technoglobe’s privacy policy to understand how we collect, use, and protect personal information of our students, clients, and website visitors in Sharjah, UAE.',
-  keywords: ['privacy policy Sharjah', 'data protection UAE', 'Technoglobe privacy', 'IT training institute', 'personal information safety', 'student data protection', 'Technoglobe UAE']
-}
+
 
 
 const privacy = ({ currentItemId }) => {
