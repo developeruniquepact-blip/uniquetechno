@@ -1,4 +1,6 @@
 "use client";
+import { Metadata } from 'next'
+
 import Footer5 from "@/components/layout/footer/Footer5";
 import Header from "@/components/layout/header/Header";
 import TjMagicCursor from "@/components/shared/others/TjMagicCursor";
@@ -12,7 +14,12 @@ import { useEffect, useState } from "react";
 import "swiper/css";
 import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-// ... other imports stay the same
+export const metadata = {
+  title: 'Testimonials | Technoglobe IT Training Institute in Sharjah, UAE',
+  description: 'Read testimonials from students and professionals who have trained at Technoglobe in Sharjah, UAE. Discover how our IT, business, soft skills, and language courses have helped learners achieve their career goals.',
+  keywords: ['Technoglobe testimonials', 'student success stories Sharjah', 'IT training feedback UAE', 'professional development reviews', 'Technoglobe institute UAE', 'career growth stories', 'training institute Sharjah']
+}
+
 
 const Testimonials7 = () => {
 	const testimonials = getTestimonials()?.slice(0, 6);
