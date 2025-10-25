@@ -18,10 +18,7 @@ import "./assets/css/meanmenu.css";
 import "./assets/css/odometer-theme-default.css";
 import "./assets/css/solvior-icons.css";
 import "./globals.css";
-export const metadata = {
-	title: "Technoglobe - Learninng Intitute ",
-	description: "Technoglobe - Learninng Intitute",
-};
+
 
 const lato = Lato({
 	subsets: ["latin"],
