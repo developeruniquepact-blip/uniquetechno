@@ -1,4 +1,3 @@
-import { Metadata } from 'next'
 import Footer5 from "@/components/layout/footer/Footer5";
 import Header from "@/components/layout/header/Header";
 import About9 from "@/components/sections/About/About9";
@@ -14,13 +13,6 @@ import Hero5 from "@/components/sections/heros/Hero5";
 import TjMagicCursor from "@/components/shared/others/TjMagicCursor";
 import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";
 import MasterCompany from "@/components/sections/Franchiese/MasterCompany";
-
-export const metadata = {
-  title: 'Franchise | Learning Institute',
-  description: 'Partner with Technoglobe and start your own IT training institute in the UAE.Join a trusted brand in education with complete business and marketing support.',
-  keywords: ['Franchise', 'IT training', 'Technoglobe', 'UAE', 'sharjah', 'training institute']
-}
-
 export default function Home9() {
   return (
     <div>
