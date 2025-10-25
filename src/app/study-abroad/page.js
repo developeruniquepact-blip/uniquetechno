@@ -1,4 +1,5 @@
 "use client";
+import { Metadata } from 'next'
 
 import React from "react";
 import Image from "next/image";
@@ -11,6 +12,12 @@ import Header from "@/components/layout/header/Header";
 import Cta1 from "@/components/sections/cta/Cta1";
 import TjMagicCursor from "@/components/shared/others/TjMagicCursor";
 import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";
+export const metadata = {
+  title: 'Study Abroad | Technoglobe IT Training Institute in Sharjah, UAE',
+  description: 'Explore Technoglobe’s Study Abroad programs from Sharjah, UAE. We guide students in pursuing international education opportunities, career-oriented courses, and global learning experiences.',
+  keywords: ['study abroad Sharjah', 'international education UAE', 'Technoglobe study programs', 'overseas courses', 'career development abroad', 'student guidance UAE', 'Technoglobe Sharjah']
+}
+
 
 export default function Home5() {
   // Load image URLs from public/images/Gallery/
