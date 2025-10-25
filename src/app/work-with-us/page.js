@@ -1,4 +1,5 @@
 "use client";
+import { Metadata } from 'next'
 
 import Header from "@/components/layout/header/Header";
 import Footer from "@/components/layout/footer/Footer5";
@@ -8,6 +9,12 @@ import Cta1 from "@/components/sections/cta/Cta1";
 import TjMagicCursor from "@/components/shared/others/TjMagicCursor";
 import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";
 import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
+export const metadata = {
+  title: 'Work With Us | Technoglobe IT Training Institute in Sharjah, UAE',
+  description: 'Join Technoglobe in Sharjah, UAE and explore career opportunities at a leading IT training institute. We welcome passionate professionals to contribute to IT education, skill development, and student success.',
+  keywords: ['work with Technoglobe', 'careers Sharjah', 'IT training jobs UAE', 'join Technoglobe', 'professional opportunities', 'IT institute careers', 'career growth UAE']
+}
+
 
 const WorkWithUs = () => {
   console.log("WorkWithUs loaded");
