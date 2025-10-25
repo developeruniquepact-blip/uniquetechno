@@ -1,5 +1,4 @@
 "use client";
-import { Metadata } from 'next'
 
 import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
 import HeroInner from "@/components/sections/heros/HeroInner";
@@ -7,12 +6,6 @@ import Footer from "@/components/layout/footer/Footer5";
 import Header from "@/components/layout/header/Header";
 import TjMagicCursor from "@/components/shared/others/TjMagicCursor";
 import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";
-export const metadata = {
-  title: 'Placement Support | Technoglobe IT Training Institute in Sharjah, UAE',
-  description: 'Benefit from Technoglobe’s placement support in Sharjah, UAE. We assist students and professionals with career guidance, job opportunities, interview preparation, and skill development to succeed in the IT industry.',
-  keywords: ['placement support Sharjah', 'job assistance UAE', 'career guidance', 'IT training placement', 'Technoglobe institute', 'professional development UAE', 'interview preparation']
-}
-
 
 const CareerDetails1 = ({ currentItemId }) => {
   return (
