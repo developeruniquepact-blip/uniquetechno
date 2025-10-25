@@ -4,38 +4,31 @@ import ServiceDetailsMain from "@/components/layout/main/ServiceDetailsMain";
 import Cta1 from "@/components/sections/cta/Cta1";
 import TjMagicCursor from "@/components/shared/others/TjMagicCursor";
 import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";
-import getItServices from "@/libs/getSharjahServices";
+import getSharjahServices from "@/libs/getSharjahServices";
 import { notFound } from "next/navigation";
 
 export default async function ServiceDetails({ params }) {
   const { slug } = params;
-  const items = await getItServices();
+  const items = await getSharjahServices();
 
-  // Debug output
-  console.log("slug from params:", slug);
-  console.log("items:", items.map(item => item.slug));
+  const currentService = items.find((item) => {
+    const itemSlug = String(item.slug).replace(/^\/|\/$/g, "").toLowerCase();
+    const paramSlug = String(slug).replace(/^\/|\/$/g, "").toLowerCase();
+    return itemSlug === paramSlug;
+  });
 
-  // More robust slug matching
-  const currentService = items.find(
-    (item) => {
-      // Remove leading/trailing slashes and lowercase both sides
-      const itemSlug = String(item.slug).replace(/^\/|\/$/g, "").toLowerCase();
-      const paramSlug = String(slug).replace(/^\/|\/$/g, "").toLowerCase();
-      return itemSlug === paramSlug;
-    }
-  );
-
-  if (!currentService) {
-    console.error("No matching service found for slug:", slug);
-    notFound();
-  }
+  if (!currentService) notFound();
 
   return (
     <div>
       <Header isHeaderTop={true} />
       <Header isStickyHeader={true} />
       <main>
-        <ServiceDetailsMain currentService={currentService} />
+        {/* 👇 Add prop to show Sharjah breadcrumb */}
+        <ServiceDetailsMain
+          currentService={currentService}
+          breadcrumbType="sharjah"
+        />
         <Cta1 />
       </main>
       <Footer5 footerType={"inner"} />
@@ -46,8 +39,8 @@ export default async function ServiceDetails({ params }) {
 }
 
 export async function generateStaticParams() {
-  const items = await getItServices();
+  const items = await getSharjahServices();
   return items.map((item) => ({
-    slug: String(item.slug).replace(/^\/|\/$/g, ""), // remove leading/trailing slash
+    slug: String(item.slug).replace(/^\/|\/$/g, ""),
   }));
 }
