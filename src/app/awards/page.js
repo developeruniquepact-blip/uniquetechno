@@ -1,4 +1,5 @@
 "use client";
+import { Metadata } from 'next'
 
 import React from "react";
 import Image from "next/image";
@@ -11,6 +12,12 @@ import HeroInner from "@/components/sections/heros/HeroInner";
 import Cta1 from "@/components/sections/cta/Cta1";
 import TjMagicCursor from "@/components/shared/others/TjMagicCursor";
 import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";
+export const metadata = {
+  title: 'Awards & Recognition | Technoglobe IT Training Institute in Sharjah, UAE',
+  description: 'Discover the awards and recognitions earned by Technoglobe, a leading IT training and development institute in Sharjah, UAE. Our achievements reflect excellence in education, innovation, and student success.',
+  keywords: ['Technoglobe awards', 'IT institute recognition', 'education excellence Sharjah', 'IT training UAE', 'best training institute', 'award-winning institute', 'Technoglobe UAE']
+}
+
 
 export default function Home5() {
   // Load image URLs from public/images/Gallery/
