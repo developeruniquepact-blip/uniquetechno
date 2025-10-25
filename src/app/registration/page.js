@@ -7,11 +7,7 @@ import HeroInner from "@/components/sections/heros/HeroInner";
 import TjMagicCursor from "@/components/shared/others/TjMagicCursor";
 import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
 import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";
-export const metadata = {
-  title: 'Registration | Technoglobe IT Training Institute in Sharjah, UAE',
-  description: 'Register for courses at Technoglobe, a leading IT training institute in Sharjah, UAE. Secure your seat in our IT, business, soft skills, and language programs to start your career journey.',
-  keywords: ['course registration Sharjah', 'IT training UAE', 'enroll Technoglobe', 'training programs UAE', 'student registration', 'Technoglobe institute', 'career development UAE']
-}
+
 
 
 const CareerForm = () => {
