@@ -1,0 +1,37 @@
+[
+	{
+		"id": 1,
+		"authorName": "Mohd.Jain",
+		"authorDesig": "Digital Marketing",
+		"img": "/images/testimonial/h1-test-1.webp",
+		"img2": "/images/testimonial/h1-test-1.webp",
+		"logoImg": "/img/testimonials/logo/1.png",
+		"logoImgLight": "/img/testimonials/logo/1-dark.png",
+		"thumbImg": "/img/testimonials/user/testmonial-7-thumb.jpg",
+		"desc":"I enrolled in the digital marketing course during my college break, and it was the best decision! It was interactive, easy to follow, and packed with real-world examples. The certification helped me stand out in my job interviews."
+	},
+	{
+		"id": 2,
+		"authorName": "Irum Kashif",
+		"authorDesig": "Digital Marketing",
+		"img": "/images/testimonial/h1-test-2.webp",
+		"img2": "/images/testimonial/h1-test-2.webp",
+		"logoImg": "/img/testimonials/logo/2.png",
+		"logoImgLight": "/img/testimonials/logo/2-dark.png",
+		"thumbImg": "/img/testimonials/user/h10-test.png",
+		"desc": "The tools covered like Power BI, Tableau, and Python were exactly what the industry needs. Mentors were supportive and gave individual attention whenever I was stuck."
+	},
+	
+	{
+		"id": 3,
+		"authorName": "Rishi Verma",
+
+		"authorDesig": "Sr. Manager",
+		"img": "/images/testimonial/h6-test-1.webp",
+		"img2": "/images/testimonial/h3-test-2.png",
+		"logoImg": "/img/testimonials/logo/2.png",
+		"logoImgLight": "/img/testimonials/logo/2-dark.png",
+		"thumbImg": "/img/testimonials/user/testmonial-7-thumb.jpg",
+"desc": "After completing this course, I was able to land freelance projects from clients in India and abroad. The curriculum covered everything — SEO, email marketing, WordPress, analytics — and the support from the mentors was amazing."
+	}
+]
