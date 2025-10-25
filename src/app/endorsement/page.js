@@ -1,5 +1,4 @@
 "use client";
-import { Metadata } from 'next'
 
 import React from "react";
 
@@ -12,12 +11,6 @@ import Cta1 from "@/components/sections/cta/Cta1";
 import HeroInner from "@/components/sections/heros/HeroInner";
 import TjMagicCursor from "@/components/shared/others/TjMagicCursor";
 import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";
-export const metadata = {
-  title: 'Endorsements | Technoglobe IT Training Institute in Sharjah, UAE',
-  description: 'Explore Technoglobe’s endorsements and collaborations with reputed organizations across Sharjah and the UAE. Our partnerships reflect trust, quality, and excellence in IT education and training.',
-  keywords: ['Technoglobe endorsements', 'IT institute partnerships', 'education collaborations UAE', 'training institute Sharjah', 'trusted IT training UAE', 'Technoglobe recognition', 'academic partnerships']
-}
-
 
 export default function Home5() {
   // Only videos arrays now
