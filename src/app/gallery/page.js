@@ -1,5 +1,5 @@
 "use client";
-import { Metadata } from 'next'
+
 import React from "react";
 
 // Layout Components
@@ -9,12 +9,6 @@ import HeroInner from "@/components/sections/heros/HeroInner";
 import Cta1 from "@/components/sections/cta/Cta1";
 import TjMagicCursor from "@/components/shared/others/TjMagicCursor";
 import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";
-export const metadata = {
-  title: 'Gallery | Technoglobe IT Training Institute in Sharjah, UAE',
-  description: 'Explore the Technoglobe gallery showcasing our campus, training sessions, student activities, and events in Sharjah, UAE. Discover the vibrant learning environment at our IT training institute.',
-  keywords: ['Technoglobe gallery', 'institute photos', 'IT training Sharjah', 'student activities UAE', 'campus life', 'education events', 'Technoglobe UAE']
-}
-
 
 export default function Home5() {
   const images = Array.from({ length: 20 }, (_, i) => `/images/Gallery/center${i + 1}.webp`);
