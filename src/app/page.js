@@ -1,4 +1,3 @@
-import { Metadata } from 'next'
 
 import Footer6 from "@/components/layout/footer/Footer6";
 import Header from "@/components/layout/header/Header";
@@ -20,12 +19,6 @@ import Testimonials7 from "@/components/sections/testimonials/Testimonials7";
 import FeatureMarquee from "@/components/shared/marquee/FeatureMarquee";
 import TjMagicCursor from "@/components/shared/others/TjMagicCursor";
 import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";
-export const metadata = {
-  title: 'Learning Institute in Sharjah | Leading IT Training Institute in Sharjah, UAE',
-  description: 'Technoglobe is a premier IT training and development institute in Sharjah, UAE. We offer a wide range of courses including IT, business, soft skills, language, and career-focused programs to empower students and professionals.',
-  keywords: ['Technoglobe Sharjah', 'IT training UAE', 'business courses Sharjah', 'soft skills training UAE', 'language courses', 'career development', 'IT institute UAE', 'professional training']
-}
-
 export default function Home5() {
 	return (
 		<div>
