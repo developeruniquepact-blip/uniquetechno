@@ -1,8 +1,12 @@
 import BackToTop from "@/components/shared/others/BackToTop";
 import Link from "next/link";
+import N8nChatbot from "./N8nnChatbot";
 
 const Footer5 = () => {
   return (
+    <>
+       <N8nChatbot />
+
     <footer className="tj-footer-area h5-footer">
       <div className="footer-top-area fix">
         <div className="container">
@@ -155,6 +159,7 @@ const Footer5 = () => {
       {/* <!-- back to top --> */}
       <BackToTop type={3} />
     </footer>
+        </>
   );
 };
 
