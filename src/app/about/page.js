@@ -11,6 +11,13 @@ import Team8 from "@/components/sections/teams/Team8";
 import Testimonials2 from "@/components/sections/testimonials/Testimonials2";
 import TjMagicCursor from "@/components/shared/others/TjMagicCursor";
 import ClientWrapper from "@/components/shared/wrappers/ClientWrapper";
+
+
+export const metadata = {
+  title: 'About Us | Technoglobe IT Training Institute in Sharjah, UAE',
+  description: 'Learn about Technoglobe, a leading IT training and development institute based in Sharjah, UAE. We empower students and professionals with advanced technology skills and career-focused training programs.',
+  keywords: ['About Technoglobe', 'IT training institute in Sharjah', 'IT training UAE', 'technology institute Sharjah', 'IT courses UAE', 'computer training', 'career development']
+}
 export default function About() {
 	return (
 		<div>
