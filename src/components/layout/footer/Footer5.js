@@ -1,6 +1,5 @@
 import BackToTop from "@/components/shared/others/BackToTop";
 import Link from "next/link";
-import N8nChatbot from "./N8nnChatbot";
 
 const Footer5 = () => {
   return (
