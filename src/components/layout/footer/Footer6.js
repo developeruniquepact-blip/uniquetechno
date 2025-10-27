@@ -1,9 +1,14 @@
 import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
 import FormSelect from "@/components/shared/Inputs/FormSelect";
 import Link from "next/link";
+import N8nChatbot from "./N8nnChatbot";
 
 const Footer6 = () => {
 	return (
+		<>
+   <N8nChatbot />
+
+		
 		<footer className="tj-footer-area h5-footer">
 			{/* <!-- footer content --> */}
 			<div className="h6-footer-top fix">
@@ -214,6 +219,7 @@ const Footer6 = () => {
 			</Link>
 			{/* <!-- end: back to top --> */}
 		</footer>
+			</>
 	);
 };
 
