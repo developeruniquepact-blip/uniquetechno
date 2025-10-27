@@ -6,7 +6,7 @@ import N8nChatbot from "./N8nnChatbot";
 const Footer6 = () => {
 	return (
 		<>
-   <N8nChatbot />
+  
 
 		
 		<footer className="tj-footer-area h5-footer">
