@@ -1,7 +1,6 @@
 import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
 import FormSelect from "@/components/shared/Inputs/FormSelect";
 import Link from "next/link";
-import N8nChatbot from "./N8nnChatbot";
 
 const Footer6 = () => {
 	return (
